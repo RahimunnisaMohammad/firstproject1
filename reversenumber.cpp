@@ -12,6 +12,14 @@ int main()
                n=n/10;
     }
     cout<<"reverse is:"<<s<<endl;
+    if(rev==n)
+    {
+        cout<<"This is a palindrome"<<endl;
+    }
+    else
+    {
+        cout<<"NOt a Palindrome"<<endl;
+    }
     return 0;
 }
 
